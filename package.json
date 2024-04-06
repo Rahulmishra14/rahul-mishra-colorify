@@ -1,0 +1,29 @@
+{
+  "name": "rahul-mishra-colorify",
+  "version": "1.0.0",
+  "description": "A library to support logging in console with new effects.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahulmishra14/rahul-mishra-colorify.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Rahul Mishra <rahulmishra02022001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rahulmishra14/rahul-mishra-colorify/issues"
+  },
+  "homepage": "https://github.com/Rahulmishra14/rahul-mishra-colorify#readme",
+  "devDependencies": {
+    "typescript": "^5.4.4"
+  },
+  "files": ["lib/**/*"]
+}
